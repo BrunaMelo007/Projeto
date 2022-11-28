@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/bdb0ec4059.js" crossorigin="anonymous"></script>
+  <title>LP</title>
+</head>
+  <style>
+    body.dark{
+      background-color: #2F4F4F;
+    }
+    
+    .dark .header{
+      background-color: #3a678b;
+    }
+    
+    .dark .header .apresentacao, .dark .header .apresentacao i{
+      color: white;
+    }
+    
+    .dark .projetos{
+      background-color: #4f4f4f;
+    }
+    
+    .dark .projetos a, .dark .projeto-titulo{
+      color: white;
+    }
+    
+    .dark .menu, .dark footer{
+      background-color: rgb(20, 20, 20);
+    }
+    
+    .dark .menu ul li a, .dark footer{
+      color: white;
+    }
+    
+    .dark button{
+      color: purple;
+      background-color: black;
+      border: 3px solid white;
+    }
+    
+    
+    .codigos.ativo{
+      display: block;
+    }
+  </style>
+<body>
+  
+  <div>
+    <nav class='menu'>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Projetos</a></li>
+      </ul>
+      
+      <div class='altera-tema'>
+        <button onclick='alterarTema()' >Tema</button>
+      </div>
+    </nav>
+    
+    
+    <header class='header'>
+      <div class='apresentacao'>
+        <div class='mensagem'>
+          <p>Dev <span class='typed-text'></span> <span class='cursor'>&nbsp;</span></p>
+        </div>
+        
+        <div>
+        <h3>Bruna Mércia da Silva Melo</h3>
+        <h4>Graduanda em Análise e Desenvolvimento de Sistemas</h4>
+      </div>
+      
+      <div class='redes-sociais'>
+        <ul>
+          <li><a target='_blank' href="https://www.linkedin.com/in/bruna-m%C3%A9rcia-7070a1216"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a target='_blank' href="https://github.com/BrunaMelo007"><i class="fa-brands fa-github"></i></i></a></li>
+        </ul>
+        
+      </div>
+        
+      </div>
+      
+      
+      <div class='imagem'>
+        <img src="https://dsm01pap008files.storage.live.com/y4maN_5ODGqov82meQDJfg-za0KVs1k8N-uIwwtEaJqh7TkduDGcIEleM8QVavA2MiE_NGS3plDkNIr_9EVkKM1vi1-MJA__ddqF3gFlux8rZRJC8aZgE0d94iXQdGQ5nsIt2jzCLikyxYNMhg3_LxV7XVH83wdwzFFLNdOyV1txZqcTrJLzJ3-2_V-B_AABDdKUjH6lw4195tzQfzQPuyrkqSlBXXOXwyrGIamtOglVBY?width=577&height=577&cropmode=center" alt="Tecnologias HTML, CSS e JS">
+      </div>
+    </header>
+    
+    <section class='projetos'>
+      <h2 class='projeto-titulo'>Projetos</h2>
+      
+      <ul>
+        <li class='projeto-itens'>
+          <a target='_blank' href="https://codepen.io/Bruna-Mercia/pen/ZERRLoW">Conversor</a>
+          <button id='1' onclick='mostrar(id)' class='minimizar'>Mostrar</button>
+          
+          <div id='codigo-1' class='codigos'>
+            <iframe height="300" style="width: 100%;" scrolling="no" title="Projeto Final - Dev Web" src="https://codepen.io/Bruna-Mercia/embed/ZERRLoW?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/Bruna-Mercia/pen/ZERRLoW">
+  Projeto Final - Dev Web</a> by Bruna Melo (<a href="https://codepen.io/Bruna-Mercia">@Bruna-Mercia</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+          </div>
+        </li>
+        
+        <li class='projeto-itens'>
+          <a target='_blank' href="https://codepen.io/Bruna-Mercia/pen/NWzdNpE">Projeto CSS</a>
+          <button id='2' onclick='mostrar(id)' class='minimizar'>Mostrar</button>
+          
+          <div id='codigo-2' class='codigos'>
+            <iframe height="300" style="width: 100%;" scrolling="no" title="CSS  - Projeto 2" src="https://codepen.io/Bruna-Mercia/embed/NWzdNpE?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/Bruna-Mercia/pen/NWzdNpE">
+  CSS  - Projeto 2</a> by Bruna Melo (<a href="https://codepen.io/Bruna-Mercia">@Bruna-Mercia</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+          </div>
+        </li>
+      </ul>
+    </section>
+    
+    <footer>
+      <p>&copy; 2022 Todos os direitos reservados. Site desenvolvido no Curso de Aperfeiçoamento em Desenvolvimento Web Básico.</p>
+    </footer>
+  </div>
+  
+  <script scr=''></script>
+  
+</body>
+</html>
